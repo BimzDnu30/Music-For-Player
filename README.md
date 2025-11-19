@@ -32,7 +32,7 @@ moonloader/
 5. Jalankan SA-MP → script aktif otomatis.
 
 ## 🎮 Cara Penggunaan
-- Tekan **F3** untuk membuka/menutup GUI.
+- Command /music untuk membuka/menutup GUI.
 - Pilih lagu dari daftar musik.
 - Gunakan tombol kontrol audio di panel kanan.
 
