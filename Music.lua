@@ -1,5 +1,5 @@
 script_name("MP3 Player GUI")
-script_version("1.9 By Bimz")
+script_version("2.0 By Bimz")
 
 local imgui = require 'imgui'
 local ffi = require 'ffi'
@@ -24,8 +24,8 @@ local default_cfg = {
 local cfg = inicfg.load(default_cfg, cfg_path) or default_cfg
 inicfg.save(cfg, cfg_path)
 
-local LOCAL_VERSION = "1.9"
-local GITHUB_RAW_URL = "https://raw.githubusercontent.com/USERNAME/REPO/main/mp3player.lua"
+local LOCAL_VERSION = "2.0"
+local GITHUB_RAW_URL = "https://raw.githubusercontent.com/BimzDnu30/Music-For-Player/main/Music.lua"
 local VERSION_URL = "https://raw.githubusercontent.com/BimzDnu30/Music-For-Player/main/version.txt"
 local SCRIPT_PATH = getWorkingDirectory() .. "/Music.lua"
 
@@ -317,3 +317,4 @@ function onScriptTerminate()
     end
     imgui.ShowCursor = false
 end
+
